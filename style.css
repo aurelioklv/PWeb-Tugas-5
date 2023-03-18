@@ -1,0 +1,33 @@
+:root {
+    --bg: #f8fcff;
+    --primary: #d5d1cb;
+    --secondary: #c4bfb5;
+    --accent: #c49c58;
+}
+
+body {
+    background-image: var(--bg);
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: var(--primary);
+}
+
+#main-image {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#main-image:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: var(--accent);
+    color: var(--bg);
+    outline: none;
+}
+
+.btn:hover {
+    background-color: var(--primary);
+}
